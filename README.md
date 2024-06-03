@@ -12,6 +12,10 @@ pypi package is built with [this Github Action](https://github.com/facebookresea
 ```
 pip install vrs
 ```
+Note that to import the package, the module is named `pyvrs`, so you will need to write
+```
+import pyvrs
+```
 
 :warning: Note: Work on the Windows version of the PyPI package is currently in progress and will be completed soon. In the meantime, please build the package from the source. Further details can be found in the section below.
 
